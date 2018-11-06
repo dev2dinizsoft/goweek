@@ -7,7 +7,7 @@ const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
 mongoose.connect(
-  'mongodb://vhscobin:scobin123@ds153593.mlab.com:53593/goweek_backend',
+  'mongodb://---:---@ds153593.mlab.com:53593/goweek_backend',
   {useNewUrlParser: true}
 );
 
